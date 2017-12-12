@@ -7,13 +7,14 @@
 }
 
 body {
-  background-color: darkgrey;
+  background-color:   #c766ff;
 }
 
 .container {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 30px auto;
   background-color: white;
+  padding-bottom: 50px;
 }
 
 img {
@@ -29,10 +30,17 @@ h1, h2, h3 {
   font-family: georgia;
 }
 
+h1 {
+  text-transform: capitalize;
+  font-size: 50px;
+  text-align: center;
+}
+
 h2 {
   margin-top: 0;
   font-size: 24px;
   font-style: italic;
+  text-align: center;
 }
 
 h3 {
@@ -43,8 +51,21 @@ h3 {
 .source {
   border-bottom: solid 5px #E8E8E8;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .left-column {
   margin-top: 35px;
+}
+
+#reveal-recipes {
+  padding: 10px;
+  background-color: #8ec127;
+  color: white;
+}
+
+#less-recipes {
+  padding: 10px;
+  background-color: #8ec127;
+  color: white;
 }
