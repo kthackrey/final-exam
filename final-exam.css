@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.body {
+  background-color: darkgrey;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
